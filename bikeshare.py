@@ -167,6 +167,7 @@ def user_stats(df):
     print('-'*40)
     
 def display_data(df):
+    """Set the number of records to display 5 per view"""
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
     start_loc = 0
     while (view_data == 'yes'):
